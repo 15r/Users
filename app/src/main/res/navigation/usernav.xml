@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/usernav"
+    app:startDestination="@id/userList">
+
+    <fragment
+        android:id="@+id/userList"
+        android:name="my.users.UserList"
+        android:label="UserList" />
+    <fragment
+        android:id="@+id/userDetails"
+        android:name="my.users.UserDetails"
+        android:label="UserDetails" />
+</navigation>
